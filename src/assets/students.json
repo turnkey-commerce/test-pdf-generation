@@ -1,0 +1,142 @@
+[
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "studentEmail": "johndoe@example.com",
+      "course": "Bsc Software Engineering",
+      "yearOfStudy": 2
+    },
+    {
+      "firstName": "Test1",
+      "lastName": "Test1",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test2",
+      "lastName": "Test2",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test3",
+      "lastName": "Test3",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test4",
+      "lastName": "Test4",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test5",
+      "lastName": "Test5",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test6",
+      "lastName": "Test6",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test7",
+      "lastName": "Test7",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test8",
+      "lastName": "Test8",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test9",
+      "lastName": "Test9",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test10",
+      "lastName": "Test10",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test11",
+      "lastName": "Test11",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test12",
+      "lastName": "Test12",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test13",
+      "lastName": "Test13",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test14",
+      "lastName": "Test14",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test15",
+      "lastName": "Test15",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test16",
+      "lastName": "Test16",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test17",
+      "lastName": "Test17",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test18",
+      "lastName": "Test18",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    },
+    {
+      "firstName": "Test19",
+      "lastName": "Test19",
+      "studentEmail": "test@example.com",
+      "course": "Bsc Computer Science",
+      "yearOfStudy": 4
+    }
+  ]
