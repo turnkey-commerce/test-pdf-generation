@@ -2,6 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {MatTableDataSource} from "@angular/material/table";
 import { ApiService } from './api.service';
 import {Student} from "./student";
+import jspdf from 'jspdf';
+import html2canvas from 'html2canvas';
 
 @Component({
   selector: 'app-root',
@@ -28,7 +30,7 @@ export class AppComponent implements OnInit{
   /**
    * This method returns students details
    */
-  getStudentsInformation(){
+  getStudentsInformation() {
     this.studentApiService.getStudentsInformation()
       .subscribe((res)=>{
         //console.log(res);
@@ -36,5 +38,15 @@ export class AppComponent implements OnInit{
         // this.dataSource.sort = this.sort;
         // this.dataSource.paginator = this.paginator;
       })
+  }
+
+  generatePdf() {
+    html2canvas(document.querySelector('#report')!).then(canvas => {
+      const contentDataURL = canvas.toDataURL('image/png')  // 'image/jpeg' for lower quality output.
+      let pdf = new jspdf('l', 'cm', 'a4'); //Generates PDF in landscape mode
+      // let pdf = new jspdf('p', 'cm', 'a4'); Generates PDF in portrait mode
+      pdf.addImage(contentDataURL, 'PNG', 0, 0, 29.7, 21.0);  
+      pdf.save('report.pdf');   
+    }); 
   }
 }
