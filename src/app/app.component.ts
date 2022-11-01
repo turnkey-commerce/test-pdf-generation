@@ -42,10 +42,13 @@ export class AppComponent implements OnInit{
 
   generatePdf() {
     html2canvas(document.querySelector('#report')!).then(canvas => {
-      const contentDataURL = canvas.toDataURL('image/png')  // 'image/jpeg' for lower quality output.
-      let pdf = new jspdf('l', 'cm', 'a4'); //Generates PDF in landscape mode
-      // let pdf = new jspdf('p', 'cm', 'a4'); Generates PDF in portrait mode
-      pdf.addImage(contentDataURL, 'PNG', 0, 0, 29.7, 21.0);  
+      // Adjust the image width and height to fit average report on page.
+      var imgWidth = 29.7;
+      var imgHeight = 21.0;
+      const contentDataURL = canvas.toDataURL('image/png');
+      let pdf = new jspdf('l', 'cm', 'letter'); //Generates PDF in landscape mode
+      //let pdf = new jspdf('p', 'cm', 'letter'); //Generates PDF in portrait mode
+      pdf.addImage(contentDataURL, 'PNG', 0, 0, imgWidth, imgHeight);  
       pdf.save('report.pdf');   
     }); 
   }
